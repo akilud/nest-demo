@@ -1,8 +1,8 @@
 ## Stack
-Backend Framework: NestJS
-Database: SQLite with TypeORM
-Authentication: JWT
-Queue System: BullMQ + Redis
+- Backend Framework: NestJS
+- Database: SQLite with TypeORM
+- Authentication: JWT
+- Queue System: BullMQ + Redis
 
 ## Environment Setup
 Create .env file:
@@ -23,16 +23,16 @@ npm i
 
 
 ## Authentication
-POST /auth/sign-up - Register new user
-POST /auth/sign-in - Login user
+- POST /auth/sign-up - Register new user
+- POST /auth/sign-in - Login user
 
 ## URL Shortener
-POST /new - Create short URL
-GET /:shortCode - Redirect to long URL (public)
-GET /links - Get all user's links
-GET /clicks - Get all user's clicks
-GET /clicks/:link_id - Get clicks for specific link
-GET /click_detail/:click_id - Get detailed click information
+- POST /new - Create short URL
+- GET /:shortCode - Redirect to long URL (public)
+- GET /links - Get all user's links
+- GET /clicks - Get all user's clicks
+- GET /clicks/:link_id - Get clicks for specific link
+- GET /click_detail/:click_id - Get detailed click information
 
 🔐 Authentication
 All non auth require Bearer token:
